@@ -1,4 +1,4 @@
- 	Lossless-Compression-Algorithms																					
+ 	Lossless-Compression-Algorithms													
 Lossless compression is a class of data compression algorithms that allows the original data to be perfectly reconstructed from the compressed data. By contrast, lossy compression permits reconstruction only of an approximation of the original data, though usually with improved compression rates (and therefore reduced file sizes).
 
 Lossless data compression is used in many applications. For example, it is used in the ZIP file format and in the GNU tool gzip. It is also often used as a component within lossy data compression technologies (e.g. lossless mid/side joint stereo preprocessing by MP3 encoders and other lossy audio encoders).
@@ -33,8 +33,7 @@ As mentioned previously, lossless sound compression is a somewhat specialized ar
 
 It is sometimes beneficial to compress only the differences between two versions of a file (or, in video compression, of successive images within a sequence). This is called delta encoding (from the Greek letter Δ, which in mathematics, denotes a difference), but the term is typically only used if both versions are meaningful outside compression and decompression. For example, while the process of compressing the error in the above-mentioned lossless audio compression scheme could be described as delta encoding from the approximated sound wave to the original sound wave, the approximated version of the sound wave is not meaningful in any other context.
 
-	Lossless compression methods
-																					
+	Lossless compression methods			
 	See also: Category:Lossless compression algorithms
 	
 By operation of the pigeonhole principle, no lossless compression algorithm can efficiently compress all possible data. For this reason, many different algorithms exist that are designed either with a specific type of input data in mind or with specific assumptions about what kinds of redundancy the uncompressed data are likely to contain.
